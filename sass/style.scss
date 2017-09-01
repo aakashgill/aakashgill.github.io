@@ -96,11 +96,9 @@ header {
 	margin-top: 15%;
 	margin-left: 40%;
 
-	// @media screen and(max-width:550px) {
-	// 	width: 550px;
-	// 	margin: auto;
-	// 	margin-top:30%;
-	// }
+	@media screen and(max-width: 800px) {
+		margin-left: 0;
+	}
 	span{
 		max-width: 300px;
 		margin: auto;
@@ -110,7 +108,7 @@ header {
 		font-size: 30px;
 		color:#fff;
 		font-style: italic;
-		// @media screen and(max-width:550px) {
+		// @media screen and(max-width: 800px) {
 		// 	width: 100%;
 		// }
 		&:before{
@@ -150,7 +148,7 @@ header {
 		// @media screen and(max-width:681px) {
 		// 	font-size: 50px;
 		// }
-		// @media screen and(max-width:550px) {
+		// @media screen and(max-width: 800px) {
 		// 	font-size: 60px;
 		// }
 	}
@@ -185,7 +183,7 @@ header {
 			@media screen and(max-width:1170px) {
 				width: 60%;
 			}
-			@media screen and(max-width:550px) {
+			@media screen and(max-width: 800px) {
 				width: 100%;
 			}
 		}
@@ -337,7 +335,7 @@ footer{
 			color:#fff;
 			font-size: 50px;
 			padding-bottom: 20px;
-			@media screen and(max-width:550px) {
+			@media screen and(max-width: 800px) {
 				font-size: 35px;
 				text-align: center;
 			}

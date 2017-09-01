@@ -59,6 +59,9 @@ header {
   display: inline-block;
   margin-top: 15%;
   margin-left: 40%; }
+  @media screen and (max-width: 800px) {
+    #introduction {
+      margin-left: 0; } }
   #introduction span {
     max-width: 300px;
     margin: auto;
@@ -117,7 +120,7 @@ header {
     @media screen and (max-width: 1170px) {
       .container-about .line {
         width: 60%; } }
-    @media screen and (max-width: 550px) {
+    @media screen and (max-width: 800px) {
       .container-about .line {
         width: 100%; } }
   .container-about .content {
@@ -247,7 +250,7 @@ footer .content h2 {
   color: #fff;
   font-size: 50px;
   padding-bottom: 20px; }
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 800px) {
     footer .content h2 {
       font-size: 35px;
       text-align: center; } }
