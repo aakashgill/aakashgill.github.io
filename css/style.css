@@ -61,7 +61,14 @@ header {
   margin-left: 40%; }
   @media screen and (max-width: 800px) {
     #introduction {
-      margin-left: 0; } }
+      margin-left: 0;
+      display: flex;
+      flex-direction: column;
+      margin-top: 0;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%); } }
   #introduction span {
     max-width: 300px;
     margin: auto;
@@ -80,6 +87,9 @@ header {
       background: #fff;
       display: block;
       content: ""; }
+      @media screen and (max-width: 800px) {
+        #introduction span:before {
+          left: -40px; } }
     #introduction span:after {
       height: 2px;
       position: absolute;
@@ -89,6 +99,9 @@ header {
       background: #fff;
       display: block;
       content: ""; }
+      @media screen and (max-width: 800px) {
+        #introduction span:after {
+          right: -45px; } }
   #introduction p {
     max-width: 800px;
     font-size: 100px;
