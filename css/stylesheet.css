@@ -216,7 +216,10 @@ header {
       @media screen and (max-width: 600px) {
         .container-skills .content .my-skills {
           width: 100%;
-          text-align: center; } }
+          text-align: center;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center; } }
       .container-skills .content .my-skills li {
         width: 244px;
         float: left;
