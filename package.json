@@ -1,0 +1,21 @@
+{
+  "name": "aakashgill.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio of Aakash Gill",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aakashgill/aakashgill.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aakashgill/aakashgill.github.io/issues"
+  },
+  "homepage": "https://github.com/aakashgill/aakashgill.github.io#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-atomizer": "^3.0.7"
+  }
+}

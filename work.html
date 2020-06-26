@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" class="Fz(62.5%)">
+<head>
+  <meta charset="utf-8" />
+  <meta name="author" content="Aakash Gill">
+  <meta name="description" content="Web Developer | Coder | CSS | JS |">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript,React,Developer,UI,UX,Designer,Portfolio,Code">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+	<title>Aakash Gill - Work</title>
+	<link rel="stylesheet" href="./src/css/atomic.css">
+</head>
+
+<body class="Ff(ss) Bgc($body-bg-color) C($color-aqua) Lh(1.5) M(0)">
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div>
+    <nav class="Bgc(#f9f9fe) H(100%)--md Bxz(bb) Px(20px) Py(100px)--md Py(20px) Pos(f)--md Pos(r) T(0) Start(0) W(170px)--md D(f) Fld(c)--md Ai(c)  Bxsh($shadow) Jc(sb) Jc(fs)--md Z(1)">
+			<a href="/">
+				<img class="Mb(50px)--md" src="./src/img/A.png" width="60" alt="Aakash"/>
+			</a>
+			<ul class="P(0) M(0) List(n) D(f) D(b)--md">
+					<li class="listItem Mb(20px)">
+						<a href="./work.html" class="D(b) Bdrs(3px)::a Lts(1px) Px(10px) Fz(1.6rem) Tt(u) Td(n) Pos(r) C(#000) C(#fff):h Cnt(noq)::a Pos(a)::a Z(-1)::a B(0)::a Start(0)::a Trs(allTransition)::a W(100%)::a H(8px)::a listItem:h_H(100%)::a Bgc(#30b9cb)::a D(b)::a">
+							Projects
+						</a>
+					</li>
+			</ul>
+    </nav>
+    <div class="Mstart(170px)--md Px(20px) Pt(100px)--sm">
+      <ol class="js-work D(f) Fld(c) Px(50px) Fz(2rem)"></ol>
+    </div>
+    <script>
+      let projectsArray = [
+        {
+          "title": "Lorem Ipsum Generator",
+          "link": "https://codepen.io/aakash_gill/full/RwrpjYO"
+        },
+        {
+          "title": "Guess the number",
+          "link": "https://codepen.io/aakash_gill/full/zYGmppj"
+        },
+        {
+          "title": 'Move the Cursor (React JS)',
+          "link": 'https://codepen.io/aakash_gill/full/bvMoRj'
+        },
+        {
+          "title": "Falling (Vanilla JS)",
+          "link": 'https://codepen.io/aakash_gill/full/wgzEOe'
+        },
+        {
+          "title": "Animated Black Bear",
+          "link": "https://codepen.io/aakash_gill/details/WOYMwW"
+        },
+        {
+          "title" : "Pikachu (Pure CSS)",
+          "link": "https://codepen.io/aakash_gill/full/GWPRwm"
+        },
+        {
+          "title": "Flying UFO",
+          "link": "https://codepen.io/aakash_gill/full/EXMbPg"
+        },
+        {
+          "title": "Casper",
+          "link": "https://codepen.io/aakash_gill/details/EwLXvq"
+        },
+        {
+          "title": "Music Key Mood",
+          "link": "https://codepen.io/aakash_gill/details/xLbEab"
+        },
+        {
+          "title": "Tardis",
+          "link": "https://codepen.io/aakash_gill/details/OmKzVX"
+        },
+        {
+        "title": "Minions",
+        "link" : "https://codepen.io/aakash_gill/full/MqRzyX"
+        }
+      ];
+      let workContainer = document.querySelector('.js-work');
+      projectsArray.map(item => {
+        console.log(item);
+        workContainer.innerHTML += `<li><a target="_blank" class="D(ib) C(#fff) C(#30b9cb):h Px(10px) Py(5px)" href="${item.link}">${item.title}</a></li>`
+      })
+    </script>
+  </div>
+  </body>
+</html>
